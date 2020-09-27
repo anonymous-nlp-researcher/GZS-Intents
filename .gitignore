@@ -1,0 +1,11 @@
+raw_data/*
+raw_data/*/*
+
+data/*
+data/*/*
+
+KG_conceptnet/*
+
+SimplE/models/conceptnet/*
+SimplE/datasets/*
+SimplE/datasets/*/*
