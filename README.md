@@ -16,6 +16,7 @@ and palce it in 'KG_conceptnet' or whatever directory you plan to use in the kg 
 
 
 1. Preprocessing the datasets
+
 i. Datasets preprocessing for SNIPS, SGD, MultiWoz2.2
 run: preprocessing/extract_intent_utterances.py -dataset (one value from  snips, dstc8-sgd, MultiWOZ_2.2)
 
@@ -24,6 +25,7 @@ run: preprocessing/data_split_neg_sampling.py -dataset (one value from  snips, d
 
 
 2. Link prediction for meta-features generation
+
 i. preprocess the knowledge graph for training the link prediction model.
 run: SimplE/kg_preprocess.py
 
@@ -32,6 +34,7 @@ run: SimplE/main.py
 
 
 3. Train the PU classifier that is used at inference time
+
 i. data split for seen(positive) and unseen(unlabelled)
 run: pu/data_split_pu.py
 
@@ -40,6 +43,7 @@ run: pu/pu_classifier.py
 
 
 4. Train the core model for intent detection
+
 run: intent_model/model.py
 
 
