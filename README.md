@@ -3,10 +3,14 @@ GZS Intent Detection
 
 
 0. Download datasets from:
+
 i. SNIPS: https://github.com/yuanxiaosc/BERT-for-Sequence-Labeling-and-Text-Classification/tree/master/data/snips_Intent_Detection_and_Slot_Filling
+
 ii. SGD: https://github.com/google-research-datasets/dstc8-schema-guided-dialogue
+
 iii. MultiWoz_2.2: https://github.com/budzianowski/multiwoz/tree/master/data
 and place in 'raw_data' or whatever directory you plan to use in the preprocessing code.
+
 iv. ConceptNet KG: https://github.com/commonsense/conceptnet5/wiki/Downloads
 and palce it in 'KG_conceptnet' or whatever directory you plan to use in the kg preprocessing code.
 
